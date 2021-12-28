@@ -1,0 +1,29 @@
+
+.header{
+    background-color: #F6F6F6;
+}
+.logo{
+    background-color: #73BF9C;
+    color: white;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+#sign-in{
+    color: #73BF9C;
+    width: 75px;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+#log-in{
+    background-color: #73BF9C;
+    color: white;
+    width: 75px;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
