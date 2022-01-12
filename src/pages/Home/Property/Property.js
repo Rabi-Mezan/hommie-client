@@ -28,6 +28,7 @@ const Property = () => {
                                 <button className='know-more'>Know More</button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
