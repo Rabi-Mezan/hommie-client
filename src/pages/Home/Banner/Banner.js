@@ -11,7 +11,7 @@ const Banner = () => {
 
     return (
         <div class=" banner">
-            <div class="banner-container container-fuild d-flex  align-items-center">
+            <div class="banner-container container-fuild d-flex  align-items-baseline">
                 <div class=" ms-5 banner-text w-lg-75 w-sm-100">
 
                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '85px' }} className='text-center rounded'>REALSTATE</p>

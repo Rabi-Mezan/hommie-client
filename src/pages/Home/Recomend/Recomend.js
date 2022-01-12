@@ -11,7 +11,7 @@ const homeData = [
         description: 'Lorem ipsum dolor',
         img: 'https://i.ibb.co/QvK9hnQ/home1.jpg',
         price: 25000,
-        Location: 'New Jersy USA'
+        Location: 'New Jersy'
 
     },
     {
@@ -20,7 +20,7 @@ const homeData = [
         description: 'sit amet consectetur',
         img: 'https://i.ibb.co/CwcZtmz/home3.jpg',
         price: 35000,
-        Location: 'Sydney Australia'
+        Location: 'Sydney'
 
     },
     {
@@ -29,7 +29,7 @@ const homeData = [
         description: 'Lorem ipsum dolor',
         img: 'https://i.ibb.co/BBbnnPN/home4.jpg',
         price: 33000,
-        Location: 'Florida USA'
+        Location: 'Florida'
 
     }
 ]
@@ -51,7 +51,7 @@ const Recomend = () => {
                     {
                         homeData.map(home =>
                             <div>
-                                <div class="col card " >
+                                <div class="col card p-2" >
                                     <img src={home.img} className="card-img-top" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title fw-bold">{home.title}</h5>
