@@ -2,10 +2,19 @@
     background-color: #F6F6F6;
 }
 
+.banner-container{
+    margin-top: -70px;
+}
+
+.banner-text{
+    margin-left: 50px;
+}
+
 @media screen and (max-width: 680px) {
     .banner-container{
         flex-direction: column;
         padding-top: 20px;
+        margin-top: 0px;
     }
 
     .banner-text{
@@ -18,5 +27,8 @@
         flex-direction: column;
         justify-content: space-around;
         
+    }
+    .banner-img{
+        width: 60%;
     }
   }

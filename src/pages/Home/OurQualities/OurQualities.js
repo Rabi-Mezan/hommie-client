@@ -4,7 +4,7 @@ import './OurQualities.css'
 const OurQualities = () => {
     return (
         <div className='container-fluid' style={{ marginTop: "150px", backgroundColor: "#F6F6F6" }}>
-            <div className='container pt-4'>
+            <div className='container py-4'>
                 <div>
                     <div>
                         <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '130px' }} className='text-center rounded'>OUR QUALITIES</p>

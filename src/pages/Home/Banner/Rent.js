@@ -2,7 +2,7 @@ import React from 'react';
 
 const Rent = () => {
     return (
-        <div className='d-flex banner-buy text-warning justify-content-between bg-white align-items-center p-3'>
+        <div className='d-flex banner-buy justify-content-between bg-white align-items-center p-3' style={{ color: 'gray' }}>
             <div>
                 <p>Location</p>
             </div>

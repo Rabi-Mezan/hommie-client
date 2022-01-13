@@ -19,7 +19,7 @@ const Header = () => {
                         <Nav.Link href="#pricing">About</Nav.Link>
                         <Nav.Link href="#pricing">Contact</Nav.Link>
                         <Nav.Link href="/">
-                            <button id='sign-in'>Sign In</button>
+                            <button id='sign-in' className=''>Sign In</button>
                         </Nav.Link>
                         <Nav.Link href="/">
                             <button id='log-in'>Login</button>

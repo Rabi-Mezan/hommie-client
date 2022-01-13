@@ -13,7 +13,7 @@ const Property = () => {
                                 <h1>4.8</h1>
                                 <p className='fw-bold' style={{ color: '#366e54' }}>Top Rated Property</p>
                             </div>
-                            <img className='property-img' src="https://i.ibb.co/4gcvQbL/sidekix-media-BAVam-y-9-Wg-unspla.jpg" alt="" />
+                            <img className='property-img img-fluid' src="https://i.ibb.co/4gcvQbL/sidekix-media-BAVam-y-9-Wg-unspla.jpg" alt="" />
                         </div>
                     </div>
                     <div class="col-lg-6 col-12">
@@ -21,11 +21,11 @@ const Property = () => {
 
                             <div>
                                 <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '140px' }} className='text-center rounded'>PROPERTY VALUE</p>
-                                <h1 style={{ color: '#366e54' }} className='fw-bold'>How Much Is Your <br /> Property Worth Now ??
+                                <h1 style={{ color: '#366e54' }} className='fw-bold'>How Much Is Your <br /> Property Worth Now?
                                     <br /> <span> Ask Our Experts..</span></h1>
-                                <p className='mb-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti id nostrum neque tempora! Numquam sit fugiat magnam nam doloremque minus aperiam placeat molestiae, similique tempore delectus, sint, libero nihil voluptatum!</p>
+                                <p className='mb-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti id nostrum neque tempora! Numquam sit fugiat magnam nam doloremque minus aperiam placeat molestiae, similique tempore delectus, sint, libero nihil voluptatum!</p>
 
-                                <button className='know-more'>Know More</button>
+                                <button className='btn btn-outline-dark btn-floating m-1'>Know More</button>
                             </div>
                         </div>
 

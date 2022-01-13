@@ -12,12 +12,12 @@ const Banner = () => {
     return (
         <div class=" banner">
             <div class="banner-container container-fuild d-flex  align-items-baseline">
-                <div class=" ms-5 banner-text w-lg-75 w-sm-100">
+                <div class="banner-text w-lg-75 w-sm-100">
 
                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '85px' }} className='text-center rounded'>REALSTATE</p>
-                    <h2 className='fs-1 fw-bold'>Let's hunt for your <br />
-                        dream residence</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda repudiandae laboriosam odio iste earum.</p>
+                    <h2 className='fs-1 fw-bold'>Let's Hunt For Your <br />
+                        Dream Residence</h2>
+                    <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda repudiandae laboriosam odio iste earum.</p>
                     <ul class="nav nav-tabs">
                         <li onClick={() => setControl('buy')} class="nav-item">
                             <button class="nav-link text-dark active" aria-current="page" >Buy</button>
@@ -34,8 +34,8 @@ const Banner = () => {
                     }
 
                 </div>
-                <div class="banner-img w-75 ">
-                    <img className='w-100 ms-auto' src={img} alt="" />
+                <div class="w-75 ">
+                    <img className='banner-img w-100 ms-auto ' src={img} alt="" />
                 </div>
             </div>
         </div>

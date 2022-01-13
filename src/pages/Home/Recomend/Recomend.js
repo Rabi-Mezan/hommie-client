@@ -42,7 +42,7 @@ const Recomend = () => {
                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '85px' }} className='text-center rounded'>DISCOVER</p>
                     <h1 style={{ color: '#366e54' }} className='fw-bold'>Best Recomendation</h1>
                     <div className='recomend-text d-flex justify-content-between align-items-center'>
-                        <p className='fs-6 fw-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam, minus  iusto nostrum repellendus fugiat soluta maxime  <br /> id fuga deleniti reprehenderit accusamus nesciunt! Voluptatibus commodi incidunt, sed earum illum ullam.</p>
+                        <p className='fs-6 w-lg-100 fw-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam, minus  iusto nostrum repellendus fugiat soluta maxime  id fuga deleniti <br /> reprehenderit accusamus nesciunt! Voluptatibus commodi incidunt, sed earum illum ullam.</p>
                         <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className=''>Learn more <span className='ms-2 px-2 py-1 rounded-pill' style={{ color: 'white', backgroundColor: '#73BF9C' }}><i class="fas fa-arrow-right"></i></span></Link>
                     </div>
                 </div>
@@ -58,9 +58,9 @@ const Recomend = () => {
                                         <small className='fw-light'>{home.description}</small>
                                         <div className='my-2 d-flex justify-content-between'>
                                             <strong style={{ color: '#73BF9C' }}>${home.price}</strong>
-                                            <p><span><i class="fas fa-map-marker-alt fw-bold me-1 fs-4"></i></span>{home.Location}</p>
+                                            <p><span><i class="fas fa-map-marker-alt fw-bold me-1 fs-4 fw-bold"></i></span>{home.Location}</p>
                                         </div>
-                                        <Link to="/" className="details-btn btn  border-dark w-100">See Details</Link>
+                                        <Link to="/" className="btn btn-outline-dark btn-floating  w-100">See Details</Link>
                                     </div>
                                 </div>
                             </div>
@@ -75,10 +75,3 @@ const Recomend = () => {
 
 export default Recomend;
 
-{/* <div class="container">
-    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-        <div class="col">
-            <div class="p-3 border bg-light">Row column</div>
-        </div>
-    </div>
-</div> */}

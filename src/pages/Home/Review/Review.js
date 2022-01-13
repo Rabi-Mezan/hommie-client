@@ -34,10 +34,10 @@ const Review = () => {
         <div className='container' style={{ marginTop: "150px" }}>
             <div>
                 <div>
-                    <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '85px' }} className='text-center rounded'>REVIEWS</p>
+                    <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '120px' }} className='text-center rounded'>TESTIMONIALS</p>
                     <h1 style={{ color: '#366e54' }} className='fw-bold'>What People Say About Us !</h1>
                     <div className='recomend-text d-flex justify-content-between align-items-center'>
-                        <p className='fs-6 fw-normal w-lg-75'>Lorem ipsum dolor sit amet consectetur adipisicing elit  Quasi ullam,<br /> minus  iusto nostrum repellendus fugiat soluta maxime</p>
+                        <p className='fs-6 fw-normal w-lg-75'>Lorem ipsum dolor sit amet consectetur adipisicing elit  Quasi ullam minus  iusto nostrum repellendus fugiat soluta maxime</p>
                         <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className=''>All Reviews <span className='ms-2 px-2 py-1 rounded-pill' style={{ color: 'white', backgroundColor: '#73BF9C' }}><i class="fas fa-arrow-right"></i></span></Link>
                     </div>
                 </div>
@@ -53,10 +53,10 @@ const Review = () => {
                                         <h5 className="card-title fw-bold">{review.title}</h5>
                                         <small className='fw-normal w-75 my-1'>{review.description}</small>
                                         <div className='my-2 d-flex align-items-center '>
-                                            <img src={review.img} className="mt-2 h-25 w-25 rounded-pill" alt="..." />
-                                            <div>
-                                                <h3 className='fs-6 ms-1 fw-bold'> {review.name}</h3>
-                                                <small className='ms-1'>{review.address}</small>
+                                            <img style={{ border: '5px solid #73BF9C' }} src={review.img} className=" mt-2 h-25 w-25 rounded-pill" alt="..." />
+                                            <div className='ms-2'>
+                                                <h3 className='fs-6 fw-bold'> {review.name}</h3>
+                                                <p className='' style={{ fontSize: '12px', marginTop: '-5px' }} >{review.address}</p>
                                             </div>
                                         </div>
                                     </div>
