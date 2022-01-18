@@ -4,7 +4,7 @@ import './Property.css'
 const Property = () => {
     return (
         <div style={{ marginTop: "150px" }}>
-            <div class="container overflow-hidden">
+            <div class="container-fluid px-lg-3 overflow-hidden">
                 <div class="row gy-5">
                     <div class="col-lg-6 col-12">
                         <div class="">

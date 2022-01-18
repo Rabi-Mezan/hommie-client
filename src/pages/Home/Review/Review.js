@@ -31,11 +31,11 @@ const Reviews = [
 
 const Review = () => {
     return (
-        <div className='container' style={{ marginTop: "150px" }}>
+        <div className='container-fuild px-lg-3 p-3' style={{ marginTop: "150px" }}>
             <div>
                 <div>
                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '120px' }} className='text-center rounded'>TESTIMONIALS</p>
-                    <h1 style={{ color: '#366e54' }} className='fw-bold'>What People Say About Us !</h1>
+                    <h1 style={{ color: '#366e54' }} className='fw-bold'>What People Say <br /> About Us !</h1>
                     <div className='recomend-text d-flex justify-content-between align-items-center'>
                         <p className='fs-6 fw-normal w-lg-75'>Lorem ipsum dolor sit amet consectetur adipisicing elit  Quasi ullam minus  iusto nostrum repellendus fugiat soluta maxime</p>
                         <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className=''>All Reviews <span className='ms-2 px-2 py-1 rounded-pill' style={{ color: 'white', backgroundColor: '#73BF9C' }}><i class="fas fa-arrow-right"></i></span></Link>

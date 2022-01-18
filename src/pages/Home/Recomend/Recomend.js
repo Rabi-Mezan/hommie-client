@@ -11,7 +11,7 @@ const homeData = [
         description: 'Lorem ipsum dolor',
         img: 'https://i.ibb.co/QvK9hnQ/home1.jpg',
         price: 25000,
-        Location: 'New Jersy'
+        Location: 'Miami'
 
     },
     {
@@ -36,17 +36,17 @@ const homeData = [
 
 const Recomend = () => {
     return (
-        <div className='container' style={{ marginTop: "80px" }}>
+        <div className='container-fluid px-lg-3' style={{ marginTop: "80px" }}>
             <div>
                 <div>
                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '85px' }} className='text-center rounded'>DISCOVER</p>
                     <h1 style={{ color: '#366e54' }} className='fw-bold'>Best Recomendation</h1>
                     <div className='recomend-text d-flex justify-content-between align-items-center'>
-                        <p className='fs-6 w-lg-100 fw-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam, minus  iusto nostrum repellendus fugiat soluta maxime  id fuga deleniti <br /> reprehenderit accusamus nesciunt! Voluptatibus commodi incidunt, sed earum illum ullam.</p>
-                        <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className=''>Learn more <span className='ms-2 px-2 py-1 rounded-pill' style={{ color: 'white', backgroundColor: '#73BF9C' }}><i class="fas fa-arrow-right"></i></span></Link>
+                        <p className='fs-6 w-lg-100 fw-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam, minus  iusto nostrum repellendus fugiat soluta <br />  maxime  id fuga deleniti reprehenderit accusamus nesciunt! Voluptatibus commodi incidunt, sed earum illum ullam.</p>
+                        <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className=''>Learn more <span className='learn-btn ms-2 px-2 py-1 rounded-pill' style={{ color: 'white', backgroundColor: '#73BF9C' }}><i class="fas fa-arrow-right"></i></span></Link>
                     </div>
                 </div>
-                <div className='row row-cols-2 row-cols-lg-3 g-2 g-lg-4 mt-5'>
+                <div className='row row-cols-1 row-cols-lg-3 g-2 g-lg-4 mt-5'>
 
                     {
                         homeData.map(home =>

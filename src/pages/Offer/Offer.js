@@ -4,9 +4,9 @@ import img from '../../images/offer.jpg'
 
 const Offer = () => {
     return (
-        <div style={{ marginTop: "150px", backgroundColor: "#F6F6F6", paddingTop: "30px", paddingBottom: '100px' }}>
+        <div style={{ marginTop: "150px", backgroundColor: "#F6F6F6", paddingTop: "30px", paddingBottom: '100px' }} className='px-lg-3'>
             <div style={{ marginTop: "150px" }}>
-                <div class="container overflow-hidden">
+                <div class="container-fuild mx-3 overflow-hidden">
                     <div class="row gy-5">
                         <div class="col-lg-6 col-12">
                             <div class="p-3">
@@ -25,8 +25,8 @@ const Offer = () => {
                             <div class="">
                                 <div className='overlap-section'>
 
-                                    <h1>30 <i style={{ color: '#73BF9C' }} class="fas fa-percent fs-1"></i></h1>
-                                    <p className='fw-bold fs-2' style={{ color: '#366e54' }}>OFF !!</p>
+                                    <h1> <span className='fw-bold' style={{ fontFamily: 'Oswald', fontSize: '70px', color: 'red' }}>30</span> <i style={{ color: '#73BF9C' }} class="fas fa-percent fs-1"></i></h1>
+                                    <p className='fw-bold fs-2' style={{ color: '#366e54' }}>Off !!</p>
                                 </div>
                                 <img className='w-100' src={img} alt="" />
                             </div>
