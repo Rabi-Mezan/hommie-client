@@ -156,10 +156,10 @@ const Footer = () => {
 
 
 
-            <div class="text-center mt-5 fw-bold fs-6 p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+            <div class="text-center mt-5 fw-bold fs-6 p-2" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
                 © 2022 Copyright:
                 <span
-                    class="text-dark " to="https://mdbootstrap.com/">Rdev// Ravi-Mezan</span>
+                    class="text-dark " to="https://mdbootstrap.com/">Rdev// Ravi-Mezan/All Rights Reserved</span>
             </div>
 
         </div>

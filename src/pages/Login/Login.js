@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
 
@@ -26,20 +27,25 @@ const Login = () => {
                                             <input
                                                 {...register("email", { required: true, maxLength: 20 })}
                                                 type="email" id="form3Example1q" class="form-control" />
-                                            <label class="form-label" for="form3Example1q">Email</label>
+                                            <label class="form-label fw-bold" for="form3Example1q">Email</label>
                                         </div>
                                         <div class="form-outline mb-4">
                                             <input
                                                 {...register("password", { required: true, maxLength: 20 })}
                                                 type="password" id="form3Example1q" class="form-control" />
-                                            <label class="form-label" for="form3Example1q">Password</label>
+                                            <label class="form-label fw-bold" for="form3Example1q">Password</label>
                                         </div>
 
 
+                                        <div class=" d-flex justify-content-end mb-4">
+
+                                            <small class="form-check-label" for="form1Example3"> New Here? <Link to='/register' className='fw-bold'>
+                                                Register Please
+                                            </Link> </small>
+                                        </div>
 
 
-
-                                        <button class="cta fw-bold">
+                                        <button class="cta my-3 fw-bold">
                                             <span>Login</span>
                                             <svg width="15px" height="10px" viewBox="0 0 13 10">
                                                 <path d="M1,5 L11,5"></path>
@@ -49,12 +55,14 @@ const Login = () => {
 
                                     </form>
 
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <hr />
         </div>
     );
 };

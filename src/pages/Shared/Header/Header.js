@@ -18,11 +18,11 @@ const Header = () => {
                         <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/property'>Property</Link>
                         <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/about'>About</Link>
 
-                        <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/register'>
+                        <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2 ' to='/register'>
                             <button id='sign-in' className=''>Sign In</button>
                         </Link>
                         <Link style={{ textDecoration: 'none', color: 'black' }} to='/login'>
-                            <button id='log-in'>Login</button>
+                            <button className='fw-bold' id='log-in'>Login</button>
                         </Link>
 
                     </Nav>

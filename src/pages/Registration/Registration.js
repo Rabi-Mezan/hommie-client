@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import { Link } from 'react-router-dom';
 
 
 const Registration = () => {
@@ -12,7 +13,7 @@ const Registration = () => {
     return (
         <div>
 
-            <section class="h-100 h-custom" style={{ backgroundColor: "#366e54" }}>
+            <section class="h-100 h-custom pb-5" style={{ backgroundColor: "#366e54" }}>
                 <div class="container py-5 h-100">
                     <div class="row d-flex justify-content-center align-items-center h-100">
                         <div class="col-lg-8 col-xl-6">
@@ -27,26 +28,32 @@ const Registration = () => {
                                             <input
                                                 {...register("name", { required: true, maxLength: 20 })}
                                                 type="text" id="form3Example1q" class="form-control" />
-                                            <label class="form-label" for="form3Example1q">Name</label>
+                                            <label class="form-label fw-bold" for="form3Example1q">Name</label>
                                         </div>
                                         <div class="form-outline mb-4">
                                             <input
                                                 {...register("email", { required: true, maxLength: 20 })}
                                                 type="email" id="form3Example1q" class="form-control" />
-                                            <label class="form-label" for="form3Example1q">Email</label>
+                                            <label class="form-label fw-bold" for="form3Example1q">Email</label>
                                         </div>
                                         <div class="form-outline mb-4">
                                             <input
                                                 {...register("password", { required: true, maxLength: 20 })}
                                                 type="password" id="form3Example1q" class="form-control" />
-                                            <label class="form-label" for="form3Example1q">Password</label>
+                                            <label class="form-label fw-bold" for="form3Example1q">Password</label>
+                                        </div>
+
+
+                                        <div class=" d-flex justify-content-end mb-4">
+
+                                            <small class="form-check-label" for="form1Example3"> Already Have An Account? <Link to='/login' className='fw-bold'>
+                                                Login Here
+                                            </Link> </small>
                                         </div>
 
 
 
-
-
-                                        <button class="cta fw-bold">
+                                        <button class="cta my-3 fw-bold">
                                             <span>Register</span>
                                             <svg width="15px" height="10px" viewBox="0 0 13 10">
                                                 <path d="M1,5 L11,5"></path>
@@ -55,14 +62,29 @@ const Registration = () => {
                                         </button>
 
                                     </form>
+                                    <div class="d-flex flex-row align-items-center justify-content-end">
+                                        <p class="lead fw-bold mb-0 me-3">Sign in with</p>
 
+                                        <button type="button" class="btn btn-outline-dark btn-floating m-1">
+                                            <i class="fab fa-google"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-outline-dark btn-floating m-1">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-outline-dark btn-floating m-1">
+                                            <i class="fab fa-twitter"></i>
+                                        </button>
+
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
+            <hr />
         </div>
     );
 };
