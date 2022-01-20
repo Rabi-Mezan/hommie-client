@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div style={{ backgroundColor: '#73BF9C' }} className='text-left text-dark'>
+        <div style={{ backgroundColor: '#366e54' }} className='text-left text-dark px-lg-3'>
             <div class="container-fuild mx-2 p-4">
 
                 <section class="mb-4">
@@ -31,28 +31,28 @@ const Footer = () => {
 
                 </section>
 
-                <section class="">
+                <section class="my-5">
                     <form action="">
 
-                        <div class="row d-flex justify-content-start">
+                        <div class="row d-flex justify-content-start align-items-baseline my-4">
 
                             <div class="col-auto">
-                                <p class="pt-2">
+                                <p class=" fs-2">
                                     <strong>Sign up for our newsletter</strong>
                                 </p>
                             </div>
 
                             <div class="col-md-5 col-12">
 
-                                <div class="form-outline form-white  mb-4">
+                                <div class="form-outline form-white  ">
                                     <input type="email" id="form5Example21" class="form-control" />
-                                    <label class="form-label" for="form5Example21 mt-2">Email address</label>
+                                    <label class="form-label mb-2" for="form5Example21 mt-2">Email address</label>
                                 </div>
                             </div>
 
                             <div class="col-auto">
 
-                                <button type="submit" class="btn btn-outline-light mb-4">
+                                <button type="submit" class="btn btn-outline-light ">
                                     Subscribe
                                 </button>
                             </div>
@@ -62,7 +62,7 @@ const Footer = () => {
                     </form>
                 </section>
 
-                <section class="mb-4 w-lg-75">
+                <section class="mb-4 mt-3 w-lg-75">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
                         repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
@@ -74,10 +74,10 @@ const Footer = () => {
 
                 <section class="">
 
-                    <div class="row ">
+                    <div class="row  mt-5 ">
 
-                        <div class="col-lg-3 col-md-6 col-3 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">Support</h5>
+                        <div class="col-lg-3 col-md-6 col-4 mb-4 mb-md-0">
+                            <h5 class="text-uppercase fw-bold">Support</h5>
 
                             <ul class="list-unstyled  mb-0">
                                 <li>
@@ -95,8 +95,8 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-3 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">SOLUTIONS</h5>
+                        <div class=" hidden col-lg-3 col-md-6 col-4 mb-4 mb-md-0">
+                            <h5 class="text-uppercase fw-bold">SERVICE</h5>
 
                             <ul class="list-unstyled mb-0">
                                 <li>
@@ -111,8 +111,8 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-3 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">COMPANY</h5>
+                        <div class="col-lg-3 col-md-6 col-4 mb-4 mb-md-0">
+                            <h5 class="text-uppercase fw-bold">COMPANY</h5>
 
                             <ul class="list-unstyled mb-0">
                                 <li>
@@ -132,8 +132,8 @@ const Footer = () => {
 
 
 
-                        <div class="col-lg-3 col-md-6 col-3 mb-4 mb-md-0">
-                            <h5 class="text-uppercase">LEGAL</h5>
+                        <div class="col-lg-3 col-md-6 col-4 mb-4 mb-md-0">
+                            <h5 class="text-uppercase fw-bold">LEGAL</h5>
 
                             <ul class="list-unstyled mb-0">
                                 <li>
@@ -156,10 +156,10 @@ const Footer = () => {
 
 
 
-            <div class="text-center fw-bold p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+            <div class="text-center mt-5 fw-bold fs-6 p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
                 © 2022 Copyright:
                 <span
-                    class="text-dark" to="https://mdbootstrap.com/">Rdev// Ravi-Mezan</span>
+                    class="text-dark " to="https://mdbootstrap.com/">Rdev// Ravi-Mezan</span>
             </div>
 
         </div>

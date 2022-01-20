@@ -36,14 +36,23 @@ const homeData = [
 
 const Recomend = () => {
     return (
-        <div className='container-fluid px-lg-3' style={{ marginTop: "80px" }}>
+        <div className='container-fluid px-lg-4' style={{ marginTop: "80px" }}>
             <div>
                 <div>
                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '85px' }} className='text-center rounded'>DISCOVER</p>
                     <h1 style={{ color: '#366e54' }} className='fw-bold'>Best Recomendation</h1>
                     <div className='recomend-text d-flex justify-content-between align-items-center'>
                         <p className='fs-6 w-lg-100 fw-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam, minus  iusto nostrum repellendus fugiat soluta <br />  maxime  id fuga deleniti reprehenderit accusamus nesciunt! Voluptatibus commodi incidunt, sed earum illum ullam.</p>
-                        <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className=''>Learn more <span className='learn-btn ms-2 px-2 py-1 rounded-pill' style={{ color: 'white', backgroundColor: '#73BF9C' }}><i class="fas fa-arrow-right"></i></span></Link>
+                        <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className=''>
+                            <button class="cta">
+                                <span>Learn More</span>
+                                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </button>
+
+                        </Link>
                     </div>
                 </div>
                 <div className='row row-cols-1 row-cols-lg-3 g-2 g-lg-4 mt-5'>

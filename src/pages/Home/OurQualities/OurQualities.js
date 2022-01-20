@@ -3,7 +3,7 @@ import './OurQualities.css'
 
 const OurQualities = () => {
     return (
-        <div className='container-fluid px-lg-3' style={{ marginTop: "150px", backgroundColor: "#F6F6F6" }}>
+        <div className='container-fluid px-lg-4' style={{ marginTop: "150px", backgroundColor: "#F6F6F6" }}>
             <div className='container-fluid  py-4'>
                 <div>
                     <div>

@@ -4,7 +4,7 @@ import img from '../../images/offer.jpg'
 
 const Offer = () => {
     return (
-        <div style={{ marginTop: "150px", backgroundColor: "#F6F6F6", paddingTop: "30px", paddingBottom: '100px' }} className='px-lg-3'>
+        <div style={{ marginTop: "150px", backgroundColor: "#F6F6F6", paddingTop: "30px", paddingBottom: '100px' }} className='px-lg-4'>
             <div style={{ marginTop: "150px" }}>
                 <div class="container-fuild mx-3 overflow-hidden">
                     <div class="row gy-5">
@@ -12,7 +12,7 @@ const Offer = () => {
                             <div class="p-3">
 
                                 <div>
-                                    <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '140px' }} className='text-center rounded'>OFFERS</p>
+                                    <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '70px' }} className='text-center rounded'>OFFERS</p>
                                     <h1 style={{ color: '#366e54' }} className='fw-bold'>For More Offers Join Us</h1>
                                     <p className='mb-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti id nostrum neque tempora! Numquam sit fugiat magnam nam doloremque minus aperiam placeat molestiae, similique tempore delectus, sint, libero nihil voluptatum!</p>
 

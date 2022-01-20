@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import logo from '../../../images/home.png'
+import { Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './header.css'
 
 
@@ -13,17 +13,17 @@ const Header = () => {
                 <Navbar.Brand className='text-dark' href="#home"><span className='logo'>H</span>ommie</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="d-flex align-items-center ms-auto">
-                        <Nav.Link href="#features">Home</Nav.Link>
-                        <Nav.Link href="#pricing">Property</Nav.Link>
-                        <Nav.Link href="#pricing">About</Nav.Link>
+                    <Nav className="d-flex align-items-center  ms-auto">
+                        <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/home'>Home</Link>
+                        <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/property'>Property</Link>
+                        <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/about'>About</Link>
 
-                        <Nav.Link href="/">
+                        <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/register'>
                             <button id='sign-in' className=''>Sign In</button>
-                        </Nav.Link>
-                        <Nav.Link href="/">
+                        </Link>
+                        <Link style={{ textDecoration: 'none', color: 'black' }} to='/login'>
                             <button id='log-in'>Login</button>
-                        </Nav.Link>
+                        </Link>
 
                     </Nav>
                     <Nav>
