@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Homee
 
 This project is under development  [Live site link](https://homee-d9f69.web.app/).
 
