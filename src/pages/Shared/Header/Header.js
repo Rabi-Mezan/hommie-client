@@ -1,11 +1,13 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useFirebase from '../../../hooks/useFirebase';
 import './header.css'
 
 
 
 const Header = () => {
+    const { user, logOut } = useFirebase()
     return (
         <div className='header '>
             <Navbar className='container-fluid px-3 navbar' collapseOnSelect expand="lg" bg="" variant="light">
@@ -18,12 +20,20 @@ const Header = () => {
                         <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/property'>Property</Link>
                         <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/about'>About</Link>
 
-                        <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2 ' to='/register'>
-                            <button id='sign-in' className=''>Sign In</button>
-                        </Link>
-                        <Link style={{ textDecoration: 'none', color: 'black' }} to='/login'>
-                            <button className='fw-bold' id='log-in'>Login</button>
-                        </Link>
+                        {
+                            user.email ? '' :
+                                <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2 ' to='/register'>
+                                    <button id='sign-in' className=''>Sign In</button>
+                                </Link>
+                        }
+                        {
+                            user.email ? <Link style={{ textDecoration: 'none', color: 'black' }} to='/login'>
+                                <button onClick={logOut} className='fw-bold' id='log-in'>Logout</button>
+                            </Link> :
+                                <Link style={{ textDecoration: 'none', color: 'black' }} to='/login'>
+                                    <button className='fw-bold' id='log-in'>Login</button>
+                                </Link>
+                        }
 
                     </Nav>
                     <Nav>

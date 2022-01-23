@@ -16,7 +16,7 @@ const Home = () => {
             <Property></Property>
             <Review></Review>
             <Offer></Offer>
-            <Footer></Footer>
+
         </div>
     );
 };

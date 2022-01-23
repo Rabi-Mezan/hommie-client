@@ -1,11 +1,19 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
+import useFirebase from '../../hooks/useFirebase';
 
 
 const Registration = () => {
+    const { registerUser, GoogleSignIn } = useFirebase()
+
+
+
+
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
+
+        registerUser(data.name, data.email, data.password)
         console.log(data);
     }
 
@@ -65,7 +73,7 @@ const Registration = () => {
                                     <div class="d-flex flex-row align-items-center justify-content-end">
                                         <p class="lead fw-bold mb-0 me-3">Sign in with</p>
 
-                                        <button type="button" class="btn btn-outline-dark btn-floating m-1">
+                                        <button onClick={GoogleSignIn} type="button" class="btn btn-outline-dark btn-floating m-1">
                                             <i class="fab fa-google"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-dark btn-floating m-1">

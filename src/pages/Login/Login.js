@@ -1,12 +1,14 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
+import useFirebase from '../../hooks/useFirebase';
 
 const Login = () => {
+    const { login } = useFirebase()
 
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
-        console.log(data);
+        login(data.email, data.password)
     }
 
     return (
