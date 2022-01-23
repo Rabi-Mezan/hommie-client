@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Homee
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is under development  [Live site link](https://homee-d9f69.web.app/).
 
-## Available Scripts
+## About This Projects
+###  This projects is about an imaginary real state company website  where they sell houses .
+### Main technologies that are used in this projets are HTML , Raw CSS with Bootstrap , ReactJs, Firebase
 
 In the project directory, you can run:
 
