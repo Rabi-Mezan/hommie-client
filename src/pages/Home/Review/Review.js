@@ -62,7 +62,7 @@ const Review = () => {
                                         <h5 className="card-title fw-bold">{review.title}</h5>
                                         <small className='fw-normal w-75 my-1'>{review.description}</small>
                                         <div className='my-2 d-flex align-items-center '>
-                                            <img style={{ border: '5px solid #73BF9C' }} src={review.img} className=" mt-2 h-25 w-25 rounded-pill" alt="..." />
+                                            <img style={{ border: '5px solid #73BF9C' }} src={review.img} className=" mt-2 p-1 h-25 w-25 rounded-pill" alt="..." />
                                             <div className='ms-2'>
                                                 <h3 className='fs-6 fw-bold'> {review.name}</h3>
                                                 <p className='' style={{ fontSize: '12px', marginTop: '-5px' }} >{review.address}</p>

@@ -1,6 +1,9 @@
 
 .header{
     background-color: #F6F6F6;
+    
+   
+   
 }
 .logo{
     background-color: #73BF9C;
@@ -14,10 +17,12 @@
 
 #sign-in{
     color: #73BF9C;
-    width: 75px;
+    width: 80px;
     border: none;
+    font-weight: 700;
     padding: 5px 12px;
     border-radius: 15px;
+    background: none;
 }
 
 #sign-in:hover{
@@ -27,7 +32,7 @@
 #log-in{
     background-color: #73BF9C;
     color: white;
-    width: 75px;
+    width: 80px;
     border: none;
     padding: 5px 12px;
     border-radius: 15px;
