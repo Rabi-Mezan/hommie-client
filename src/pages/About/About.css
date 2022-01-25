@@ -62,3 +62,31 @@
 }
 
 
+.our-heritage{
+	padding: 50px;
+	background-color: #F6F6F6;
+	margin-left: 50px;
+	margin-top: -300px;
+	height: 500px;
+	width: 75%;
+	
+	
+}
+
+.our-heritage p{
+	font-family: 'Rancho', cursive;
+	font-size: 20px;
+	margin-bottom: 50px;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 680px){
+	.our-heritage{
+		padding: 10px;
+		margin-left: 5px;
+		width: 100%;
+		height: auto;
+		margin-bottom: 5px;
+		margin-top: 10px;
+	}
+}

@@ -15,7 +15,7 @@ const OurQualities = () => {
                             <div className="col my-3">
                                 <i style={{ color: '#73BF9C' }} className="fas fa-heart fw-bold fs-2"></i>
                                 <h4 className='my-1 fw-bold'>Comfortable</h4>
-                                <p className='quality-des w-lg-75'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur alias assumenda sunt adipisci vel!</p>
+                                <p className='quality-des w-lg-75 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur alias assumenda sunt adipisci vel!</p>
                             </div>
                             <div className="quality col my-3">
                                 <i style={{ color: '#73BF9C' }} className="fas fa-lock fw-bold fs-2"></i>

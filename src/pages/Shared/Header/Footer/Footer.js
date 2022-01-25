@@ -63,7 +63,7 @@ const Footer = () => {
                 </section>
 
                 <section class="mb-4 mt-3 w-lg-75">
-                    <p>
+                    <p className='fw-light '>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
                         repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
                         eum harum corrupti dicta, aliquam sequi voluptate quas.
@@ -154,9 +154,9 @@ const Footer = () => {
 
             </div>
 
+            <hr />
 
-
-            <div class="text-center mt-5 fw-bold fs-6 p-2" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+            <div class="text-center mt-5 fw-light fs-6 p-2" style={{ backgroundColor: '#366e54' }}>
                 © 2022 Copyright:
                 <span
                     class="text-dark " to="https://mdbootstrap.com/">Rdev// Ravi-Mezan/All Rights Reserved</span>

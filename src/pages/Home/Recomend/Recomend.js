@@ -23,7 +23,7 @@ const Recomend = () => {
                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '85px' }} className='text-center rounded'>DISCOVER</p>
                     <h1 style={{ color: '#366e54' }} className='fw-bold'>Best Recomendation</h1>
                     <div className='recomend-text d-flex justify-content-between align-items-center'>
-                        <p className='fs-6 w-lg-100 fw-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam, minus  iusto nostrum repellendus fugiat soluta <br />  maxime  id fuga deleniti reprehenderit accusamus nesciunt! Voluptatibus commodi incidunt, sed earum illum ullam.</p>
+                        <p className='fs-6  w-lg-100 fw-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam, minus  iusto nostrum repellendus fugiat soluta  maxime  id fuga <br />  deleniti reprehenderit accusamus nesciunt! Voluptatibus commodi incidunt, sed earum illum ullam.</p>
 
                     </div>
                 </div>
@@ -50,7 +50,7 @@ const Recomend = () => {
                     }
                     <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className='me-0 mt-4'>
                         <button class="cta">
-                            <span>More Recomendations</span>
+                            <span className=''>See More</span>
                             <svg width="15px" height="10px" viewBox="0 0 13 10">
                                 <path d="M1,5 L11,5"></path>
                                 <polyline points="8 1 12 5 8 9"></polyline>

@@ -14,9 +14,9 @@ const Offer = () => {
                                 <div>
                                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '70px' }} className='text-center rounded'>OFFERS</p>
                                     <h1 style={{ color: '#366e54' }} className='fw-bold'>For More Offers Join Us</h1>
-                                    <p className='mb-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti id nostrum neque tempora! Numquam sit fugiat magnam nam doloremque minus aperiam placeat molestiae, similique tempore delectus, sint, libero nihil voluptatum!</p>
+                                    <p className='mb-3 fw-light'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti id nostrum neque tempora! Numquam sit fugiat magnam nam doloremque minus aperiam placeat molestiae, similique tempore delectus, sint, libero nihil voluptatum!</p>
 
-                                    <button style={{ width: '150px' }} className='btn btn-outline-dark btn-floating  mt-3'>See More Offers</button>
+                                    <button style={{ width: '150px' }} className='btn btn-outline-dark btn-floating fw-bold  mt-3'>See More Offers</button>
                                 </div>
                             </div>
 

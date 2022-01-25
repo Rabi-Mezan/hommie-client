@@ -23,7 +23,7 @@ const Property = () => {
                                 <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '140px' }} className='text-center rounded'>PROPERTY VALUE</p>
                                 <h1 style={{ color: '#366e54' }} className='fw-bold'>How Much Is Your <br /> Property Worth Now?
                                     <br /> <span> Ask Our Experts..</span></h1>
-                                <p className='mb-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti id nostrum neque tempora! Numquam sit fugiat magnam nam doloremque minus aperiam placeat molestiae, similique tempore delectus, sint, libero nihil voluptatum!</p>
+                                <p className='mb-3 fw-light'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti id nostrum neque tempora! Numquam sit fugiat magnam nam doloremque minus aperiam placeat molestiae, similique tempore delectus, sint, libero nihil voluptatum!</p>
 
                                 <button className='btn btn-outline-dark btn-floating m-1'>Know More</button>
                             </div>
