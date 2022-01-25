@@ -21,7 +21,9 @@ const Offer = () => {
                             </div>
 
                         </div>
-                        <div class="col-lg-6 col-12">
+                        <div
+
+                            class="col-lg-6 col-12">
                             <div class="">
                                 <div className='overlap-section'>
 

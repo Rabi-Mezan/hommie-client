@@ -23,7 +23,7 @@ const Recomend = () => {
                     <p style={{ color: '#73BF9C', backgroundColor: '#beeed8', width: '85px' }} className='text-center rounded'>DISCOVER</p>
                     <h1 style={{ color: '#366e54' }} className='fw-bold'>Best Recomendation</h1>
                     <div className='recomend-text d-flex justify-content-between align-items-center'>
-                        <p className='fs-6  w-lg-100 fw-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam, minus  iusto nostrum repellendus fugiat soluta  maxime  id fuga <br />  deleniti reprehenderit accusamus nesciunt! Voluptatibus commodi incidunt, sed earum illum ullam.</p>
+                        <p className='fs-6  w-lg-100 fw-light'>Our spaces unify comfort and security. Your space is reserved for you and your business. Our offices are larger than the typical <br /> co-working hub: perfect for established businesses that need a place to grow.</p>
 
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Recomend = () => {
                                             <strong style={{ color: '#73BF9C' }}>${home.price}</strong>
                                             <p><span><i class="fas fa-map-marker-alt fw-bold me-1 fs-4 fw-bold"></i></span>{home.Location}</p>
                                         </div>
-                                        <Link to="/" className="btn btn-outline-dark btn-floating  w-100">See Details</Link>
+                                        <Link to={`/details/${home._id}`} className="btn btn-outline-dark btn-floating  w-100">See Details</Link>
                                     </div>
                                 </div>
                             </div>

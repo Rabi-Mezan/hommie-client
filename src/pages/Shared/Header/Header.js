@@ -12,7 +12,7 @@ const Header = () => {
         <div className='header px-lg-4 sticky-top '>
             <Navbar className='container-fluid px-3 navbar' collapseOnSelect expand="lg" bg="" variant="light">
 
-                <Navbar.Brand className='text-dark fw-bold fs-4' href="/home"><span className='logo'>H</span> ||ommie</Navbar.Brand>
+                <Navbar.Brand className='text-dark fw-bold fs-4' href="/home"><span className='logo'>H</span> ||omee</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="d-flex align-items-center ms-auto">
@@ -21,7 +21,9 @@ const Header = () => {
                         <Link style={{ textDecoration: 'none', color: 'black' }} className='p-3 ' to='/about'>About</Link>
 
                         {
-                            user.email ? '' :
+                            user.email ?
+                                <Link style={{ textDecoration: 'none', color: 'black' }} className='p-3' to='/property'>Dashboard</Link>
+                                :
                                 <Link style={{ textDecoration: 'none', color: 'black' }} className='p-2' to='/register'>
                                     <button id='sign-in' className=''>Sign In</button>
                                 </Link>

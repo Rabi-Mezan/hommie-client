@@ -3,10 +3,12 @@ import './About.css'
 import bgimage from '../../images/about1.jpg'
 import bgimage2 from '../../images/about3.jpg'
 import bgimage3 from '../../images/about4.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
-
+AOS.init();
 
 const team = [
 
@@ -68,8 +70,22 @@ const About = () => {
                                     <span class="fa fa-group p-2"></span>
                                 </div>
                                 <h4 className='text-dark fw-bold my-3'>OUR TEAM</h4>
-                                <p class="lead fw-light">Formed in late 1997 by Rajnish Kumar Shears and Ken Delery, Homee Realty Advisors began by focusing on shadow centers in front of Walmart Supercenters, and has since co-developed 23 projects with Walmart. By the early 2000’s, Homee was assisting Lowe’s Home Improvement stores with the rollout of new locations in Texas, Louisiana, Arkansas, and elsewhere in the south. To date, Homee has completed 61 Lowes developments either as a developer or a broker.</p>
-                                <div className='d-lg-flex gap-4'>
+                                <p class="lead fw-normal">Formed in late 1997 by Rajnish Kumar Shears and Ken Delery, Homee Realty Advisors began by focusing on shadow centers in front of Walmart Supercenters, and has since co-developed 23 projects with Walmart. By the early 2000’s, Homee was assisting Lowe’s Home Improvement stores with the rollout of new locations in Texas, Louisiana, Arkansas, and elsewhere in the south. To date, Homee has completed 61 Lowes developments either as a developer or a broker.</p>
+
+
+                                {/* out team section */}
+                                <div
+                                    data-aos="fade-up"
+                                    data-aos-offset="200"
+                                    data-aos-delay="100"
+                                    data-aos-duration="2000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    data-aos-once="false"
+                                    className='d-lg-flex p-lg-5 gap-4'>
+
+                                    {/* team member 1 */}
+
                                     <div class="profile-card text-center bg-light p-4 my-5 w-lg-25 h-25 rounded-3">
                                         <div class="profile-photo ">
                                             <img className='w-25 h-25' src="https://i.ibb.co/XjDqhw4/avatar-0bce659f1a615066eaa4e84e33490e09.jpg
@@ -85,14 +101,15 @@ https://i.ibb.co/xDdXF8c/avatar-bb87f62e565c7ebf4e4571055737ce31.jpg" class="img
                                             <button type="button" class="btn btn-outline-dark btn-floating m-1">
                                                 <i class="fab fa-facebook-f"></i>
                                             </button>
-
                                             <button type="button" class="btn btn-outline-dark btn-floating m-1">
                                                 <i class="fab fa-twitter"></i>
                                             </button>
-
-
                                         </div>
                                     </div>
+
+
+                                    {/* team member 2 */}
+
                                     <div class="profile-card text-center bg-light p-4 my-5 w-lg-25 h-25 rounded-3">
                                         <div class="profile-photo ">
                                             <img className='w-25 h-25' src="https://i.ibb.co/xDdXF8c/avatar-bb87f62e565c7ebf4e4571055737ce31.jpg" class="img-fluid" alt='' />
@@ -115,6 +132,8 @@ https://i.ibb.co/xDdXF8c/avatar-bb87f62e565c7ebf4e4571055737ce31.jpg" class="img
 
                                         </div>
                                     </div>
+
+                                    {/* team member 3 */}
                                     <div class="profile-card text-center bg-light p-4 my-5 w-lg-25 h-25 rounded-3">
                                         <div class="profile-photo ">
                                             <img className='w-25 h-25' src="https://i.ibb.co/CzqBSZ9/avatar-9b07c287b20bb751cc4f0210f6e2c3f9.jpg" class="img-fluid" alt='' />
@@ -133,26 +152,19 @@ https://i.ibb.co/xDdXF8c/avatar-bb87f62e565c7ebf4e4571055737ce31.jpg" class="img
                                             <button type="button" class="btn btn-outline-dark btn-floating m-1">
                                                 <i class="fab fa-twitter"></i>
                                             </button>
-
-
                                         </div>
                                     </div>
-
-
                                 </div>
-                                <p class="lead fw-light mt-3">Homee Realty Advisors remains active in resolving retailers' site challenges via its retail brokerage operations. Homee continues to provide guidance and insight to its existing retail clients while adjusting to new challenges created by technology-centric retailers such as Amazon.</p>
-
-
-
+                                <h1 style={{ color: '#366e54' }} className='fs-1 fw-bold text-center '>We Work Together To Give You The Best Home</h1>
+                                <p class="lead w-75 mx-auto fw-normal mt-3">Homee Realty Advisors remains active in resolving retailers' site challenges via its retail brokerage operations. Homee continues to provide guidance and insight to its existing retail clients while adjusting to new challenges created by technology-centric retailers such as Amazon.</p>
                             </div>
-
                             <div class="clearfix visible-md-block visible-sm-block"></div>
-
                         </div>
-
                     </div>
                 </section>
             </div>
+
+            {/* our-heritage section */}
 
             <section className='my-5 p-5'>
                 <div
@@ -164,24 +176,30 @@ https://i.ibb.co/xDdXF8c/avatar-bb87f62e565c7ebf4e4571055737ce31.jpg" class="img
                         color: "/f5f5f5"
                     }}
                     className='paralax img-fluid ms-auto'>
-
-
                 </div>
-                <div className='our-heritage shadow'>
+
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="100"
+                    data-aos-duration="3000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    className='our-heritage shadow'>
                     <h1 style={{ color: '#366e54' }} className='fw-bold fs-1'>Our Heritage</h1>
+
                     <hr />
-                    <p>
+
+                    <p className=''>
                         Founded in 1997 by Charles Shears and Ken Delery, Homee Realty Advisors began developing “shadow anchored” retail centers positioned in front of Walmart Supercenters and Lowe's Home Improvement stores. Homee growth began in the Houston metro area, but quickly expanded into neighboring communities and states to meet tenant demand.
-
                     </p>
-
-                    <small className='fw-light'>Homee realized that developing in secondary markets outside its Houston base allowed Homee to service the growth needs of numerous national retailers in underserved markets. Homee became proficient at navigating the various political climates and socioeconomic cultures that posed challenges to its retail clients.
+                    <small className='fw-normal'>Homee realized that developing in secondary markets outside its Houston base allowed Homee to service the growth needs of numerous national retailers in underserved markets. Homee became proficient at navigating the various political climates and socioeconomic cultures that posed challenges to its retail clients.
 
                         Soon, Homee ability to work with community leaders in these secondary markets led to larger development opportunities.</small>
                 </div>
-
-
             </section>
+
         </div>
     );
 };

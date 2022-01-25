@@ -1,6 +1,7 @@
 import React from 'react';
 import './Property.css'
 
+
 const Property = () => {
     return (
         <div style={{ marginTop: "150px" }} className='px-lg-4'>

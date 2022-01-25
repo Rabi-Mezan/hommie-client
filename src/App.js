@@ -10,6 +10,7 @@ import Registration from './pages/Registration/Registration';
 import Login from './pages/Login/Login';
 import Footer from './pages/Shared/Header/Footer/Footer';
 import About from './pages/About/About';
+import Details from './pages/Home/Details/Details';
 
 initAuth();
 
@@ -27,6 +28,8 @@ function App() {
           <Route path="/register" element={<Registration />} />
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
+          <Route path="/details/:id" element={<Details />} />
+
 
         </Routes>
         <Footer></Footer>
