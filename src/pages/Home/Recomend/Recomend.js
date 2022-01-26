@@ -9,7 +9,7 @@ const Recomend = () => {
     const [homeData, setHomedata] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/recommended")
+        fetch("https://serene-ridge-73317.herokuapp.com/recommended")
             .then(res => res.json())
             .then(data => {
                 setHomedata(data)
@@ -35,13 +35,13 @@ const Recomend = () => {
                                 <div class="col card p-2" >
                                     <img src={home.img} className="card-img-top" alt="..." />
                                     <div className="card-body">
-                                        <h5 className="card-title fw-bold">{home.title}</h5>
+                                        <h5 className="card-title fw-bold text-uppercase">{home.title}</h5>
                                         <small className='fw-light'>{home.description}</small>
                                         <div className='my-2 d-flex justify-content-between'>
                                             <strong style={{ color: '#73BF9C' }}>${home.price}</strong>
-                                            <p><span><i class="fas fa-map-marker-alt fw-bold me-1 fs-4 fw-bold"></i></span>{home.Location}</p>
+                                            <p className='fw-bold'><span><i class="fas fa-map-marker-alt fw-bold me-1 fs-3 fw-bold"></i></span>{home.Location}</p>
                                         </div>
-                                        <Link to={`/details/${home._id}`} className="btn btn-outline-dark btn-floating  w-100">See Details</Link>
+                                        <Link to={`/details/${home._id}`} className="btn btn-outline-dark btn-floating mt-2 w-100">See Details</Link>
                                     </div>
                                 </div>
                             </div>
