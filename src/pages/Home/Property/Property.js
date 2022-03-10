@@ -9,7 +9,7 @@ const Property = () => {
                 <div class="row gy-5">
                     <div class="col-lg-6 col-12">
                         <div class="">
-                            <div className='overlap-section'>
+                            <div className='overlap-section shadow'>
                                 <i style={{ color: '#73BF9C' }} className="fas fa-star fw-bold fs-2 mb-2"></i>
                                 <h1>4.8</h1>
                                 <p className='fw-bold' style={{ color: '#366e54' }}>Top Rated Property</p>

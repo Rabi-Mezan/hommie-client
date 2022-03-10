@@ -25,7 +25,7 @@ const Offer = () => {
 
                             class="col-lg-6 col-12">
                             <div class="">
-                                <div className='overlap-section'>
+                                <div className='overlap-section shadow'>
 
                                     <h1> <span className='fw-bold' style={{ fontFamily: 'Oswald', fontSize: '70px', color: 'red' }}>30</span> <i style={{ color: '#73BF9C' }} class="fas fa-percent fs-1"></i></h1>
                                     <p className='fw-bold fs-2' style={{ color: '#366e54' }}>Off !!</p>

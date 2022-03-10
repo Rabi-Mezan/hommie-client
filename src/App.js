@@ -11,6 +11,7 @@ import Login from './pages/Login/Login';
 import Footer from './pages/Shared/Header/Footer/Footer';
 import About from './pages/About/About';
 import Details from './pages/Home/Details/Details';
+import Property from './pages/Property/Property';
 
 initAuth();
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
           <Route path="/details/:id" element={<Details />} />
+          <Route path="/property" element={<Property />} />
 
 
         </Routes>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import Mapbox from './Mapbox'
 import './Details.css'
 
 const Details = () => {
@@ -18,7 +19,7 @@ const Details = () => {
     return (
         <div className='  container my-5 py-lg-5'>
             <div className='row '>
-                <div className='shadow paralax col-lg-6 col-12 p-2'
+                <div className=' paralax col-lg-6 col-12 p-2'
                     style={{
                         backgroundImage: `url(${details.img})`,
                         backgroundSize: "cover",
@@ -29,10 +30,13 @@ const Details = () => {
                     }}
 
                 >
+                    <div className='relative me-auto '>
+                        <Mapbox></Mapbox>
+                    </div>
 
 
                 </div>
-                <div className='col-lg-6 col-12 me-auto my-4  '>
+                <div className=' col-lg-8 me-auto my-4  '>
                     <h1 className='mt-3 fw-bolder fs-1 text-uppercase'>{details.title}</h1>
                     <p className='my-5 fs-3 fw-bold'><i class="fas fa-map-marker-alt  fw-bold text-success fs-2  fw-bold"></i>  {details.Location}</p>
 
@@ -57,6 +61,8 @@ const Details = () => {
 
 
                 </div>
+
+
 
 
             </div>

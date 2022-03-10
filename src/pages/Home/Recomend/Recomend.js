@@ -27,19 +27,19 @@ const Recomend = () => {
 
                     </div>
                 </div>
-                <div className='row row-cols-1 row-cols-lg-4 g-2 g-lg-4 mt-5'>
+                <div className='row row-cols-1 row-cols-lg-4 g-2 g-lg-3 mt-5'>
 
                     {
                         homeData.map(home =>
                             <div>
-                                <div class="col card p-2" >
+                                <div class="col card p-1" >
                                     <img src={home.img} className="card-img-top" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title fw-bold text-uppercase">{home.title}</h5>
                                         <small className='fw-light'>{home.description}</small>
-                                        <div className='my-2 d-flex justify-content-between'>
+                                        <div className='my-3 d-flex justify-content-between'>
                                             <strong style={{ color: '#73BF9C' }}>${home.price}</strong>
-                                            <p className='fw-bold'><span><i class="fas fa-map-marker-alt fw-bold me-1 fs-3 fw-bold"></i></span>{home.Location}</p>
+                                            <p className='fw-normal'><span><i class="fas fa-map-marker-alt fw-bold me-1 fs-6 fw-bold"></i></span>{home.Location}</p>
                                         </div>
                                         <Link to={`/details/${home._id}`} className="btn btn-outline-dark btn-floating mt-2 w-100">See Details</Link>
                                     </div>

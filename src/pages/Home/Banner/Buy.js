@@ -2,7 +2,7 @@ import React from 'react';
 
 const Buy = () => {
     return (
-        <div className='d-flex banner-buy justify-content-between align-items-center text-light p-3' style={{ color: 'black', backgroundColor: '#366e54' }}>
+        <div className='d-flex banner-buy w-full justify-content-between align-items-center text-light p-3' style={{ color: 'black', backgroundColor: '#366e54' }}>
             <div>
                 <p>Location</p>
             </div>

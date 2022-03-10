@@ -34,22 +34,28 @@ const team = [
 
 const About = () => {
     return (
-        <div >
-            <div className='my-5'>
-                <h1 style={{ color: '#366e54' }} className='fs-1 fw-bold text-center '>ABOUT US</h1>
-                <p className='w-75 text-center mx-auto fw-light '>Formed in late 1997 by Rajnish Kumar Shears and Ken Delery, Homee Realty Advisors began by focusing on shadow centers in front of Walmart Supercenters, and has since co-developed 23 projects with Walmart. </p>
-            </div>
-            {/* <img className='w-100 cover' src="https://i.ibb.co/5Ynxh4Z/etienne-beauregard-riverin-B0a-Cv-AVSX8-E-unsplash.jpg" alt="" /> */}
+        <div
+            className='my-5'
+        >
+            <h1 style={{ color: '#366e54' }} className='fs-1 fw-bold text-center '>ABOUT US</h1>
+            <p className='w-75 text-center mx-auto fw-light my-1 '>Formed in late 1997 by Rajnish Kumar Shears and Ken Delery, Homee Realty Advisors began by focusing on shadow centers in front of Walmart Supercenters, and has since co-developed 23 projects with Walmart. </p>
 
             <div
                 style={{
                     backgroundImage: 'url(' + bgimage + ')',
-                    backgroundSize: "cover",
+                    backgroundSize: "",
                     height: "100vh",
                     width: "100vw",
-                    color: "/f5f5f5"
+                    color: "#f5f5f5"
                 }}
-                className='paralax img-fluid'></div>
+
+                className='paralax my-5'>
+
+
+            </div>
+            {/* <img className='w-100 cover' src="https://i.ibb.co/5Ynxh4Z/etienne-beauregard-riverin-B0a-Cv-AVSX8-E-unsplash.jpg" alt="" /> */}
+
+
             <div className='row my-5'>
                 <section className='col-lg-12 col-12 '>
                     {/* <div
@@ -70,7 +76,7 @@ const About = () => {
                                     <span class="fa fa-group p-2"></span>
                                 </div>
                                 <h4 className='text-dark fw-bold my-3'>OUR TEAM</h4>
-                                <p class="lead fw-normal">Formed in late 1997 by Rajnish Kumar Shears and Ken Delery, Homee Realty Advisors began by focusing on shadow centers in front of Walmart Supercenters, and has since co-developed 23 projects with Walmart. By the early 2000’s, Homee was assisting Lowe’s Home Improvement stores with the rollout of new locations in Texas, Louisiana, Arkansas, and elsewhere in the south. To date, Homee has completed 61 Lowes developments either as a developer or a broker.</p>
+                                <p class="lead fw-light w-75 mx-auto">Formed in late 1997 by Rajnish Kumar Shears and Ken Delery, Homee Realty Advisors began by focusing on shadow centers in front of Walmart Supercenters, and has since co-developed 23 projects with Walmart. By the early 2000’s, Homee was assisting Lowe’s Home Improvement stores with the rollout of new locations in Texas, Louisiana, Arkansas, and elsewhere in the south. To date, Homee has completed 61 Lowes developments either as a developer or a broker.</p>
 
 
                                 {/* out team section */}
@@ -156,7 +162,7 @@ https://i.ibb.co/xDdXF8c/avatar-bb87f62e565c7ebf4e4571055737ce31.jpg" class="img
                                     </div>
                                 </div>
                                 <h1 style={{ color: '#366e54' }} className='fs-1 fw-bold text-center '>We Work Together To Give You The Best Home</h1>
-                                <p class="lead w-75 mx-auto fw-normal mt-3">Homee Realty Advisors remains active in resolving retailers' site challenges via its retail brokerage operations. Homee continues to provide guidance and insight to its existing retail clients while adjusting to new challenges created by technology-centric retailers such as Amazon.</p>
+                                <p class="lead w-75 mx-auto fw-light mt-3">Homee Realty Advisors remains active in resolving retailers' site challenges via its retail brokerage operations. Homee continues to provide guidance and insight to its existing retail clients while adjusting to new challenges created by technology-centric retailers such as Amazon.</p>
                             </div>
                             <div class="clearfix visible-md-block visible-sm-block"></div>
                         </div>
