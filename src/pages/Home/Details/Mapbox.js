@@ -12,15 +12,15 @@ const Mapbox = () => {
     return (
         <Map
             initialViewState={{
-                latitude: 37.8,
-                longitude: -122.4,
+                latitude: 29.749907,
+                longitude: -95.358421,
                 zoom: 14
             }}
             style={{ width: 300, height: 200 }}
             mapStyle="mapbox://styles/mapbox/streets-v9"
             mapboxAccessToken={MAPBOX_TOKEN}
         >
-            <Marker longitude={-122.4} latitude={37.8} color="red" />
+            <Marker longitude={-95.358421} latitude={29.749907} color="red" />
         </Map>
     );
 };

@@ -18,7 +18,7 @@ const Banner = () => {
                     <h2 className='fs-1 fw-bold'>Let's Hunt For Your <br />
                         Dream Residence</h2>
                     <p className='fs-6 fw-light'>We are very happy to share that we are the best in the market Because we are providing our clients with excellent service via strategic and timely execution</p>
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs mt-4">
                         <li onClick={() => setControl('buy')} class="nav-item">
                             <button class="nav-link text-dark active" aria-current="page" >Buy</button>
                         </li>

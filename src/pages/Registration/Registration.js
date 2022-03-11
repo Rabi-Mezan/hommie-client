@@ -21,7 +21,7 @@ const Registration = () => {
     return (
         <div>
 
-            <section class="h-100 h-custom pb-5" style={{ backgroundColor: "#366e54" }}>
+            <section class="h-100 h-custom py-5" style={{ backgroundColor: "#366e54" }}>
                 <div class="container py-5 h-100">
                     <div class="row d-flex justify-content-center align-items-center h-100">
                         <div class="col-lg-8 col-xl-6">
@@ -96,7 +96,7 @@ const Registration = () => {
                     </div>
                 </div>
             </section>
-            <hr />
+
         </div>
     );
 };

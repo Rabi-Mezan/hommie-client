@@ -31,7 +31,9 @@ const Details = () => {
 
                 >
                     <div className='relative me-auto '>
-                        <Mapbox></Mapbox>
+                        <Mapbox
+                            details={details}
+                        ></Mapbox>
                     </div>
 
 
@@ -48,7 +50,7 @@ const Details = () => {
                     <p className='d-flex justify-content-between'>Price  <span className='fw-bold'>$ {details.price}</span></p>
                     <p className='d-flex justify-content-between mb-5'>Available Space  <span className='fw-bold'>{details.space} SF</span></p>
 
-                    <Link to='/' style={{ textDecoration: 'none', color: '#73BF9C' }} className='mt-5'>
+                    <Link to='/contact' style={{ textDecoration: 'none', color: '#73BF9C' }} className='mt-5'>
                         <button class="cta">
                             <span className=''>Contact Us For Buying </span>
                             <svg width="15px" height="10px" viewBox="0 0 13 10">

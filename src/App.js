@@ -12,6 +12,7 @@ import Footer from './pages/Shared/Header/Footer/Footer';
 import About from './pages/About/About';
 import Details from './pages/Home/Details/Details';
 import Property from './pages/Property/Property';
+import Contact from './pages/Contact/Contact';
 
 initAuth();
 
@@ -31,6 +32,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/details/:id" element={<Details />} />
           <Route path="/property" element={<Property />} />
+          <Route path="/contact" element={<Contact />} />
+
 
 
         </Routes>
