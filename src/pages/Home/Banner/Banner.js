@@ -3,7 +3,6 @@ import './Banner.css'
 import img from '../../../images/banner.png'
 import Buy from './Buy';
 import Rent from './Rent';
-import { Link } from 'react-router-dom';
 
 
 const Banner = () => {

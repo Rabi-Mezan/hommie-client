@@ -18,6 +18,7 @@ const Header = () => {
                     <Nav className="d-flex align-items-center ms-auto">
                         <Link style={{ textDecoration: 'none', color: 'black' }} className='p-3' to='/home'>Home</Link>
                         <Link style={{ textDecoration: 'none', color: 'black' }} className='p-3' to='/property'>Property</Link>
+                        <Link style={{ textDecoration: 'none', color: 'black' }} className='p-3' to='/sellproperty'>Sell</Link>
                         <Link style={{ textDecoration: 'none', color: 'black' }} className='p-3 ' to='/about'>About</Link>
 
                         {
