@@ -2,8 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+    const currentYear = () => {
+        const year = new Date().getFullYear()
+        return year;
+    }
+
     return (
-        <div style={{ backgroundColor: '#366e54' }} className='text-left text-dark px-lg-3'>
+        <div style={{ backgroundColor: '#366e54' }} className='text-left text-light px-lg-3'>
             <div class="container-fuild mx-2 p-4">
 
                 <section class="mb-4">
@@ -63,7 +69,7 @@ const Footer = () => {
                 </section>
 
                 <section class="mb-4 mt-3 w-lg-75">
-                    <p className='fw-light '>
+                    <p className='fw-semibold w-lg-75 '>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
                         repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
                         eum harum corrupti dicta, aliquam sequi voluptate quas.
@@ -157,9 +163,9 @@ const Footer = () => {
             <hr />
 
             <div class="text-center mt-5 fw-light fs-6 p-2" style={{ backgroundColor: '#366e54' }}>
-                © 2022 Copyright:
+                © 2022 /
                 <span
-                    class="text-dark " to="https://mdbootstrap.com/">Rdev// Ravi-Mezan/All Rights Reserved</span>
+                    class="text-light " to="https://mdbootstrap.com/">rabi-dev/All Rights Reserved</span>
             </div>
 
         </div>

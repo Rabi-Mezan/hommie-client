@@ -9,7 +9,7 @@ const Recomend = () => {
     const [homeData, setHomedata] = useState([])
 
     useEffect(() => {
-        fetch("https://serene-ridge-73317.herokuapp.com/recommended")
+        fetch("https://hommie-server-rabi-mezan.vercel.app/recommended")
             .then(res => res.json())
             .then(data => {
                 setHomedata(data)

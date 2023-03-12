@@ -9,7 +9,7 @@ const Details = () => {
     const { id } = useParams()
 
     useEffect(() => {
-        fetch(`https://serene-ridge-73317.herokuapp.com/details/${id}`)
+        fetch(`https://hommie-server-rabi-mezan.vercel.app/details/${id}`)
             .then(res => res.json())
             .then(data => {
                 setDetails(data);
@@ -57,7 +57,7 @@ const Details = () => {
 
                     </div>
                     <div style={{ backgroundColor: '##d9dfe5' }} className='col-lg-4 my-4 px-2 py-3'>
-                        <h1 className='fs-2 fw-bold mt-5'>
+                        <h1 className='fs-1 fw-bold mt-5'>
                             PROCESS
                             OF BUYING
 
@@ -65,21 +65,21 @@ const Details = () => {
 
                         <div className='my-5'>
                             <div className='d-flex justify-content-between align-items-center'>
-                                <h1 style={{ fontSize: '140px' }} className='fw-bold me-1'>1</h1>
+                                <h1 style={{ fontSize: '140px', color: '#366e54' }} className='fw-bold me-1'>1</h1>
                                 <div className=''>
                                     <p className='fs-6 fw-bold'>HOUSE VIEWING</p>
                                     <small className='fs-xs'>We are here to help you find the perfect place for your family. Depending on your needs, we'll suggest properties to view and book you in for your viewing.</small>
                                 </div>
                             </div>
                             <div className='d-flex justify-content-between align-items-center'>
-                                <h1 style={{ fontSize: '140px' }} className='fw-bold me-1'>2</h1>
+                                <h1 style={{ fontSize: '140px', color: '#366e54' }} className='fw-bold me-1'>2</h1>
                                 <div className=''>
                                     <p className='fs-6 fw-bold'>NEGOTIATING TERMS</p>
                                     <small className='fs-xs'>Once you've found the property of your dreams and are ready to place an offer, we will contact the seller and negotiate the best terms to suit your budget. </small>
                                 </div>
                             </div>
                             <div className='d-flex justify-content-between align-items-center'>
-                                <h1 style={{ fontSize: '140px' }} className='fw-bold me-1'>3</h1>
+                                <h1 style={{ fontSize: '140px', color: '#366e54' }} className='fw-bold me-1'>3</h1>
                                 <div className=''>
                                     <p className='fs-6 fw-bold'>CLOSE CARE-FREE</p>
                                     <small className='fs-xs'>We don't play around – that means that our bold and confident approach to closing results in you walking away with the keys to your new dream property.</small>

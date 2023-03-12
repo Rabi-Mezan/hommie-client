@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import useFirebase from '../../hooks/useFirebase';
 
 const Login = () => {
-    const { login } = useFirebase()
+    const { login, GoogleSignIn } = useFirebase()
 
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
@@ -60,7 +60,25 @@ const Login = () => {
 
                                     </form>
 
+                                    {/* <h4 className='text-center'>---Or----</h4> */}
 
+                                    <div class="d-flex flex-row align-items-center justify-content-end">
+                                        <p class="lead fw-bold mb-0 me-3">Sign in with</p>
+
+                                        <button style={{ width: '30%' }} onClick={GoogleSignIn} type="button" class="btn btn-outline-dark btn-floating m-1 d-flex align-items-center justify-content-center">
+                                            <i class="fab fa-google me-3"></i>
+                                            Google
+                                        </button>
+                                        {/* <button type="button" class="btn btn-outline-dark btn-floating m-1">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-outline-dark btn-floating m-1">
+                                            <i class="fab fa-twitter"></i>
+                                        </button> */}
+
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
